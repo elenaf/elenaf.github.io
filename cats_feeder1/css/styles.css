@@ -1,0 +1,182 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, strong, sub, sup, b, u, i,  dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-size: 100%;
+	font-style: normal;
+}
+a {
+	margin:0;
+	padding:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+	outline:none;
+}
+table {
+	border-collapse: collapse; 
+	border-spacing: 0;
+}
+td, td img {
+	vertical-align: top;			
+} 
+input, select, button, textarea {
+	margin: 0;
+	font-size: 100%;
+	outline: none;
+}
+input[type="text"], input[type="password"], textarea {
+	padding: 0;
+}
+input[type="checkbox"] {
+	vertical-align: bottom;
+}
+input[type="radio"] {
+	vertical-align: text-bottom;
+}
+sub {
+	vertical-align: sub;
+	font-size: smaller;
+}
+sup {
+	vertical-align: super;
+	font-size: smaller;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display:block;
+}
+nav ul {
+	 list-style:none;
+}
+/* --------------- /reset.css --------------- */
+
+body {
+	background: linear-gradient(90deg, rgba(0, 0, 0, .5), rgba(1, 1, 1, .5)), url(../images/Pattern.png) repeat #000;
+}
+
+.main {
+	width: 100%;
+	text-align: center;
+	
+}
+
+.main > h1 {
+	text-align: center;
+	color: rgb(255, 255, 255);
+	font-family: 'Exo 2.0', sans-serif;
+	font-weight: 100;
+	font-size: 2.25em;
+	margin: 55px auto 30px;
+}
+
+form {
+	vertical-align: center;
+}
+
+form div {
+	display: inline-block;
+	position: relative;
+	width: 320px;
+	height: 480px;
+	margin-left: 80px;
+	cursor: pointer;
+}
+
+
+form div:last-child {
+	margin-right: 80px;
+}
+
+input[type="checkbox"] {
+	display: none;
+}
+
+label {
+	display: block;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 0.8125em;
+	color: #ffffff;
+}
+
+label em {
+	color: #1698d9;
+	border-bottom: 1px dashed #1698d9;
+}
+
+label::before {
+	display: block;
+	background: url(../images/cat.png) no-repeat #f2f2f2;
+	background-size: contain;
+	background-position: -20px 250px;
+	content: "";
+	width: 320px;
+	height: 480px;
+	border-color: #1698d9;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 20px;
+}
+
+section {
+	position: absolute;
+	text-align: left;
+	left: 50px;
+	top: 27px;
+	color: #666666;
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+section h2 {
+	margin: 20px 0 15px;
+	font-size: 3em;
+	color: #000000;
+	font-weight: 700;
+}
+
+section h3 {
+	margin: 0 0 25px;
+	font-size: 1.5em;
+	color: #000000;
+	font-weight: 700;
+}
+
+section p {
+	font-size: 0.875em;
+	margin-bottom: 10px;
+}
+
+section p:first-child {
+	font-size: 1em;
+}
+
+@media (max-width: 1285px) {
+	form div:last-child {
+		margin-right: 0;
+	}
+}
+
+/* --------------- hover, active, etc. --------------- */
+
+input[type="checkbox"]:hover ~ label::before {
+    border-color: #2ea8e6;
+}
+
+input[type="checkbox"]:checked ~ label::before {
+    border-color: #d91667;
+}
+
+input[type="checkbox"]:checked:hover ~ label::before {
+    border-color: #e62e7a;
+}
+
+input[type="checkbox"]:disabled ~ section {
+    filter: grayscale(0);
+}
+
+input[type="checkbox"]:disabled ~ label::before {
+	border-color: #b3b3b3;
+    filter: grayscale(50%);
+}

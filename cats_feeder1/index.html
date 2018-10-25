@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Ты сегодня покормил кота?</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Exo+2:100,400" rel="stylesheet">
+</head>
+<body>
+	<div class="main">
+		<h1>Ты сегодня покормил кота?</h1>
+
+		<form action="/echo" method="post">
+			<div>
+				<input type="checkbox" id="item-1" name="item-1"></input>
+				<section>
+					<p>Сказочное заморское яство</p>
+					<h2>Нямушка</h2>
+					<h3>с фуа-гра</h3>
+					<p>10 порций</p>
+					<p>мышь в подарок</p>
+				</section>
+				<label for="item-1">
+				Чего сидишь? Порадуй котэ, <em>купи</em>.
+				</label>
+			</div>
+			<div>
+				<input type="checkbox" id="item-2" name="item-2" disabled=""></input>
+				<section>
+					<p>Сказочное заморское яство</p>
+					<h2>Нямушка</h2>
+					<h3>с рыбой</h3>
+					<p>40 порций</p>
+					<p>2 мыши в подарок</p>
+				</section>
+				<label for="item-2">Чего сидишь? Порадуй котэ, <em>купи</em>.</label>
+			</div>
+			<div>
+				<input type="checkbox" id="item-3" name="item-3"></input>
+				<section>
+					<p>Сказочное заморское яство</p>
+					<h2>Нямушка</h2>
+					<h3>с курой</h3>
+					<p>100 порций</p>
+					<p>5 мышей в подарок</p>
+					<p>заказчик доволен</p>
+				</section>
+				<label for="item-3">Чего сидишь? Порадуй котэ, <em>купи</em>.</label>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
