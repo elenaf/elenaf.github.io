@@ -11,10 +11,10 @@
 	<div class="main">
 		<h1>Ты сегодня покормил кота?</h1>
 
-		<form action="/echo" method="post">
-			<div>
+		<form action="/echo" method="post" name="goods">
+			<div class="good">
 				<input type="checkbox" id="item-1" name="item-1"></input>
-				<section>
+				<section class="description">
 					<p>Сказочное заморское яство</p>
 					<h2>Нямушка</h2>
 					<h3>с фуа-гра</h3>
@@ -25,9 +25,9 @@
 				Чего сидишь? Порадуй котэ, <em>купи</em>.
 				</label>
 			</div>
-			<div>
+			<div class = "good">
 				<input type="checkbox" id="item-2" name="item-2" disabled=""></input>
-				<section>
+				<section class="description">
 					<p>Сказочное заморское яство</p>
 					<h2>Нямушка</h2>
 					<h3>с рыбой</h3>
@@ -36,9 +36,9 @@
 				</section>
 				<label for="item-2">Чего сидишь? Порадуй котэ, <em>купи</em>.</label>
 			</div>
-			<div>
+			<div class = "good">
 				<input type="checkbox" id="item-3" name="item-3"></input>
-				<section>
+				<section class="description">
 					<p>Сказочное заморское яство</p>
 					<h2>Нямушка</h2>
 					<h3>с курой</h3>
@@ -50,5 +50,6 @@
 			</div>
 		</form>
 	</div>
+	<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
