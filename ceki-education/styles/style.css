@@ -45,6 +45,10 @@ header {
 	font-weight: 300;
 }
 
+.slider {
+	position: relative;
+}
+
 .slider-slides {
 	width: 300%;
 }
