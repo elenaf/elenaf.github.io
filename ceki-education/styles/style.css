@@ -50,6 +50,8 @@ header {
 }
 
 .slider-slides img {
+	max-width: 1120px;
+	height: auto;
 	float: left;
 }
 
