@@ -45,6 +45,18 @@ header {
 	font-weight: 300;
 }
 
+.slider-slides {
+	width: 300%;
+}
+
+.slider-slides img {
+	float: left;
+}
+
+.slider-inner {
+	overflow: hidden;
+}
+
 .news-section {
 	max-width: 1120px;
 	margin: 0 auto;
