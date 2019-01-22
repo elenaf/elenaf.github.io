@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,108 +11,243 @@
 
 	<body>
 		<header>
-			<div class="header-logo">
-				<a href="https://www.цэки.рф"><img src="images/logo.png" alt="Центр экспертизы и координации информатизации"></a>
-			</div>
-			<nav class="header-main-menu">
-				<ul class="header-menu">
-					<a href="https://www.цэки.рф/about"><li>Кто мы</li></a>
-					<a href="https://www.цэки.рф/news"><li>Новости</li></a>
-					<a href="https://www.цэки.рф/activity"><li>Расписание вебинаров</li></a>
-					<a href="https://www.цэки.рф/contacts"><li>Контакты</li></a>
-					<a href="https://www.цэки.рф/#"><li>Записаться</li></a>
-					<a href="https://www.цэки.рф/education"><li>Учебный центр</li></a>
-				</ul>
-			</nav>
-			<div class="header-search">
-
-			</div>
-		</header>
-
-		<section class="background-section">
-			<div class="slider">
+			<div class="wrapper-header-top">
+				<div class="header-top clearfix">
+					<div class="header-logo">
+						<a href="https://www.цэки.рф"><img src="images/logo.png" alt="Центр экспертизы и координации информатизации"></a>
+					</div>
+					<nav class="header-main-menu">
+						<ul class="header-menu clearfix">
+							<li><a href="https://www.цэки.рф/about" target="_blank">Кто мы</a></li>
+							<li><a href="https://www.цэки.рф/news" target="_blank">Новости</a></li>
+							<li><a href="https://www.цэки.рф/activity" target="_blank">Расписание вебинаров</a></li>
+							<li><a href="https://www.цэки.рф/contacts" target="_blank">Контакты</a></li>
+							<li><a href="https://www.цэки.рф/#" target="_blank">Записаться</a></li>
+							<li><a href="https://www.цэки.рф/education" target="_blank">Учебный центр</a></li>
+						</ul>
+					</nav>
+					<div class="header-search">
+							<input type="search" name="q" placeholder="Поиск по сайту"> 
+							<input type="submit" value="Найти">
+					</div>
+					<!-- <div class="login">
+						<form class="login-form" action="site.php" method="post">
+							<label for="logName">Login:</label>
+							<input type="text" name="logName">
+							<label for="logPass">Password:</label>
+							<input type="password" name="logPass">
+							<input type="submit" value="Enter">
+							<a href="php/registration.php">Sign in</a>
+						</form>
+					</div> -->
+				</div> <!-- header-top -->
+			</div> <!-- wrapper-header-top -->
+			
+			<section class="promo">
+				<div class="slider">
+					<input type="radio" id="btn-1" name="toggle" checked>
+					<input type="radio" id="btn-2" name="toggle">
+					<input type="radio" id="btn-3" name="toggle">
+					<div class="slider-controls">
+					  <label for="btn-1"></label>
+					  <label for="btn-2"></label>
+					  <label for="btn-3"></label>
+					</div>
 					<div class="slider-controls"></div>
 					<div class="slider-inner">
 							<div class="slider-slides">
-									<img src="images/slider/slide-1.jpg" width="200" height="100">
-									<img src="images/slider/slide-2.jpg" width="200" height="100">
-									<img src="images/slider/slide-3.jpg" width="200" height="100">
-									<img src="images/slider/slide-4.jpg" width="200" height="100">
-									<img src="images/slider/slide-5.jpg" width="200" height="100">
-									<img src="images/slider/slide-6.jpg" width="200" height="100">
-									<img src="images/slider/slide-7.jpg" width="200" height="100">
+									<img src="images/slider/slide-1_prv.jpg">
+									<img src="images/slider/slide-2_prv.jpg">
+									<img src="images/slider/slide-3_prv.jpg">
+									<img src="images/slider/slide-4_prv.jpg">
+									<img src="images/slider/slide-5_prv.jpg">
 							</div>
 					</div>
-			</div>
-
-		</section>
-
-		<section class="news-section">
-			<h2>Новости</h2>
-			<div class="news">
-				<h3>Заголовок новости</h3>
-				<img src="https://www.цэки.рф/system/news/images/000/000/038/original/DSC_6327.JPG?1542723713">
-				<p>Текст новости здесь идет новость новость текст много текста новость новость новость новая новость о новой новости.</p>
-			</div>
-			<div class="news">
-				<h3>Заголовок новости</h3>
-				<img src="https://www.цэки.рф/system/news/images/000/000/038/original/DSC_6327.JPG?1542723713">
-				<p>Текст новости здесь идет новость новость текст много текста новость новость новость новая новость о новой новости.</p>
-			</div>
-			<div class="news">
-				<h3>Заголовок новости</h3>
-				<img src="https://www.цэки.рф/system/news/images/000/000/038/original/DSC_6327.JPG?1542723713">
-				<p>Текст новости здесь идет новость новость текст много текста новость новость новость новая новость о новой новости.</p>
-			</div>
-			<div class="news">
-				<h3>Заголовок новости</h3>
-				<img src="https://www.цэки.рф/system/news/images/000/000/038/original/DSC_6327.JPG?1542723713">
-				<p>Текст новости здесь идет новость новость текст много текста новость новость новость новая новость о новой новости.</p>
-			</div>
-			<div class="news">
-				<h3>Заголовок новости</h3>
-				<img src="https://www.цэки.рф/system/news/images/000/000/038/original/DSC_6327.JPG?1542723713">
-				<p>Текст новости здесь идет новость новость текст много текста новость новость новость новая новость о новой новости.</p>
+				</div> <!-- slider -->
+			</section>
+		</header>
+		
+		<section class="about-us">
+			<div class="wrapper-section">
+				<h2>Кто мы?</h2>
+				<p>Мы - те, кто избавит вас от бумажного рабства! Мы - воины неосязаемых документов! Мы - свет, пробивающийся 
+				сквозь бумажное царство!</p>
+				<p>Наша миссия - спасать бобров! Бобрам нечего кушать, сообщает наш корреспондент из Бобруйска! Все деревья
+				пошли на вырубку, а все ради чего? Ради бесконечного бумажного потока, которому не место в XXI веке!!! Но благодаря
+				электронному документообороту, деревья перестанут трястить от страха перед бензопилой, и начнут трястись только
+				перед истинными хозяевами леса - бобрами! Создай документ в электронном виде - и у одного бобра будет домик к зиме!</p>
+				<div class="promovid" align="center">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/Ya2zAzV1twI" 
+					frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+					allowfullscreen></iframe>
+				</div>
 			</div>
 		</section>
-
-		<section class="subscribe">
-			<button class="button-open">
-				<p>Записаться на обучение</p>
-			</button>
+		
+		<section class="news">
+			<div class="wrapper-section">
+				<h2>Новости</h2>
+				<div class="news-item">
+					<h3>Заголовок новости</h3>
+					<img src="https://www.цэки.рф/system/news/images/000/000/038/original/DSC_6327.JPG">
+					<p>Вебинар по спасению бобров сотрудниками министерства Охраны тракторов от искусственного интеллекта будет
+					проведен 35 мартабря на базе нашего центра. Для записи нажмите <a href="#">сюда</a>.</p>
+				</div>
+				<div class="news-item">
+					<h3>Заголовок новости</h3>
+					<img src="https://www.цэки.рф/system/news/images/000/000/038/original/DSC_6327.JPG">
+					<p>Вести с полей! Успешно закончено обучение всех людей планеты! Теперь все умные!</p>
+					<i><a href=#>Подробнее...</a></i>
+				</div>
+			</div>
+		</section>
+		
+		<section class="reviews">
+			<div class="wrapper-section">
+				<h2>Отзывы о нашей работе</h2>
+				<div class="reviews-list clearfix">
+					<blockquote class="review-item">
+						<p>Я наконец-то смог порадовать себя великолепнейшим вебинаром!</p>
+						<cite class="review-author">Работник работающий в рабочей компании</cite>
+					</blockquote>
+					<blockquote class="review-item">
+						<p>Эти люди - гении!</p>
+						<cite class="review-author">Восхищенный слушатель курсов</cite>
+					</blockquote>
+				</div>
+			</div>
+		</section>
+		
+		<section class="webinars">
+			<div class="wrapper-section">
+				<h2>Выбери свой вебинар!</h2>
+				<div class="webinars-catalog">
+					<div class="catalog-item">
+						<h3>Электронный паспорт объекта учета</h3>
+						<img src="images/slider/slide-1_prv.jpg" alt="Вебинар 1">
+						<p>Информационные системы и (или) компоненты информационно-телекоммуникационной инфраструктуры, 
+						создаваемые, развиваемые, модернизируемые и эксплуатируемые государственными органами за счет 
+						средств федерального бюджета и бюджетов государственных внебюджетных фондов</p>
+					</div>
+					<div class="catalog-item">
+						<h3>Формирование и согласование мероприятий по информатизации на 1 этапе</h3>
+						<img src="images/slider/slide-2_prv.jpg" alt="Вебинар 2">
+						<p>Нормативные правовые документы, регламентирующие работу с мероприятиями по информатизации (МПИ)</p>
+					</div>
+					<div class="catalog-item">
+						<h3>Формирование и согласование мероприятий по информатизации на 2 этапе</h3>
+						<img src="images/slider/slide-3_prv.jpg" alt="Вебинар 3">
+						<p>Мероприятие по информатизации государственных органов, направленно на создание, развитие, 
+						эксплуатацию или использование информационно -коммуникационных технологий, а также вывод из 
+						эксплуатации информационных систем и компонентов информационно-телекоммуникационной инфраструктуры.</p>
+					</div>
+					<div class="catalog-item">
+						<h3>НМЦК. Методы обоснования закупок в мероприятиях по информатизации</h3>
+						<img src="images/slider/slide-4_prv.jpg" alt="Вебинар 4">
+						<p>Какие задачи информатизации необходимо решить, что планируется закупить</p>
+					</div>
+					<div class="catalog-item">
+						<h3>Отнесение закупок к 242 виду расходов в рамках планирования мероприятий по информатизации</h3>
+						<img src="images/slider/slide-5_prv.jpg" alt="Вебинар 5">
+						<p>Расходы, связанные с жизненным циклом объекта учета относятся к 242 ВР</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="feedback">
+			<div class="wrapper-section">
+				<h2>Есть вопросы?</h2>
+				<p class="feedback-tip">Свяжитесь с нами!</p>
+				<form class="feedback-form" action = "php/send" method="post">
+					<div class="feedback-form-group>
+						<label for="fullname">ФИО:</label>
+						<input type="text" name="fullname" id="fullname">
+					</div>
+					<div class="feedback-form-group>
+						<label for="telephone">Номер телефона:</label>
+						<input type="tel" name="telephone" id="telephone">
+					</div>
+					<div class="feedback-form-group>
+						<label for="email">Адрес электронной почты:</label>
+						<input type="email" name="email" id="email">
+					</div>
+					<div class="checkbox-group">
+						<input type="checkbox" name="allowSpam" id="allowSpam">
+						<label for="allowSpam">Разрешаю слать мне спам</label>
+					</div>
+					<div class="feedback-form-group">
+						<label for="message">Текст обращения:</label>
+						<textarea name="message" id="message"></textarea>
+					</div>
+					<input type="submit" class="btn" value="Отправить">
+				</form>
+			</div>
 		</section>
 
-		<div class="sign-up-form">
-			<form action = "php/send.php" method="post">
-				<label for="name">Имя:</label>
-				<input type="text" id="name" name="name">
-				<label for="surname">Фамилия:</label>
-				<input type="text" id="surname" name="surname">
-				<label for="organisation">Организация:</label>
-				<select id="organisation" name="organisation" size="1" required >
-					<option></option>
-					<option>Министерство труда</option>
-					<option>Министерство отдыха</option>
-					<option>Министерство правды</option>
-				</select>
-				<label for="date">Выберите дату:</label>
-				<input type="date" name="date" id="date">
-				<input type="submit" value="Записаться!">
-				<input class="button-close" type="button" value="Close">
+		<div class="sign-up">
+			<form class="sign-up-form" action = "php/send.php" method="post">
+				<div class="sign-up-form-group>
+					<label for="name">Имя:</label>
+					<input type="text" id="name" name="name">
+				</div>
+				<div class="sign-up-form-group>
+					<label for="surname">Фамилия:</label>
+					<input type="text" id="surname" name="surname">
+				</div>
+				<div class="sign-up-form-group>
+					<label for="organisation">Организация:</label>
+					<select id="organisation" name="organisation" size="1" required >
+						<option value="0"></option>
+						<option value="1">Министерство труда</option>
+						<option value="2">Министерство отдыха</option>
+						<option value="3">Министерство правды</option>
+					</select>
+				</div>
+				<div class="sign-up-form-group>
+					<label for="date">Выберите дату:</label>
+					<input type="date" name="date" id="date">
+				</div>
+				<input type="submit" class="btn" value="Записаться!">
+				<input class="btn button-close" type="button" value="Close">
 				<button class="button-exit">X</button>
 			</form>
 		</div>
 
+		<button class="btn button-open">
+				<p>Записаться на обучение</p>
+		</button>
+		
 		<footer>
-			<div class="footer-columns">
-				<div class="col col-1">
-					<h2>О нас</h2>
+			<div class="wrapper-footer">
+				<div class="footer-top">
 				</div>
-				<div class="col col-1">
-					<h2>Деятельность</h2>
+				<div class="footer-middle">
+					<div class="footer-menu clearfix">
+						<div class="col col-1">
+							<h3>О нас</h3>
+							<ul>
+								<li><a href="#">Who</a></li>
+								<li><a href="#">we</a></li>
+								<li><a href="#">are</a></li>
+							</ul>
+						</div>
+						<div class="col col-2">
+							<h3>Деятельность</h3>
+							<ul>
+								<li><a href="#">What</a></li>
+								<li><a href="#">we</a></li>
+								<li><a href="#">do</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer-bottom">
+					<div class="footer-copyright">
+						<p>&copy 2018, <a href="https://www.цэки.рф">ФГБУ "ЦЭКИ"</a></p>
+					</div>
 				</div>
 			</div>
-			<p>&copy 2018, <a href="https://www.цэки.рф">ФГБУ "ЦЭКИ"</a></p>
 		</footer>
 		<script src="js/script.js"></script>
 	</body>

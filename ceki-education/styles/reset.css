@@ -67,7 +67,7 @@ body {
 	background-color: #f9f9f9;
 }
 a, a:visited { /* порядок правил для ссылок имеет значение */
-	color: #e6618c;
+	color: #06618c;
 	text-decoration: underline;
 }
 a:hover {
